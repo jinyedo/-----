@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            display: flex;
+            align-items: center; justify-content: space-evenly;
+            height: 500px;
+            border: 1px solid red;
+        }
+        
+        .container {
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            text-align: center;
+        }
+        
+        .container header {
+            border-bottom: 1px solid black;
+            padding-left: 20px;
+        }
+
+        .container .content {
+            display: flex;
+        }
+
+        .container .content main {
+            flex-basis: 80%;
+        }
+
+        .container .content nav {
+            border-right: 1px solid black;
+            flex-basis: 20%;
+            flex-shrink: 0; 
+            order: -1;
+        }
+
+        .container .content aside {
+            border-left: 1px solid black;
+            flex-basis: 20%;
+            flex-shrink: 0;
+        }
+
+
+        .container footer { 
+            border-top: 1px solid black;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+
+        <header><h1>Header</h1></header>
+
+        <section class="content">
+
+            <main>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis veniam totam labore ipsum, nesciunt temporibus 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis veniam totam labore ipsum, nesciunt temporibus
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis veniam totam labore ipsum, nesciunt temporibus
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis veniam totam labore ipsum, nesciunt temporibus
+            </main>
+
+            <nav>
+                Nav
+            </nav>
+
+            <aside>
+                Aside
+            </aside>
+        </section>
+
+        <footer>Footer</footer>
+
+    </div>
+
+    <div class="container">
+
+        <header><h1>Header</h1></header>
+
+        <section class="content">
+
+            <main>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis veniam totam labore ipsum, nesciunt temporibus 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis veniam totam labore ipsum, nesciunt temporibus
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis veniam totam labore ipsum, nesciunt temporibus
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis veniam totam labore ipsum, nesciunt temporibus
+            </main>
+
+            <nav>
+                Nav
+            </nav>
+
+            <aside>
+                Aside
+            </aside>
+        </section>
+
+        <footer>Footer</footer>
+
+    </div>
+
+
+</body>
+</html>
